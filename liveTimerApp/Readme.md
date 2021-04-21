@@ -4,4 +4,4 @@
  
  
  The Application demonstrates the Live time according to Indian Standard Time(IST)
- The Page Foormed Using : HTML, CSS
+ The Page designed Using : HTML, CSS
