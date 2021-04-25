@@ -4,7 +4,7 @@ let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","friday","Saturda
 setInterval(() => {
     x = new Date();
     let day = x.getDay();
-    console.log(day);
-    fullDate = x.getHours() + ':' +  x.getMinutes() + ':' + x.getSeconds()+ " <br> on   "+days[day]+" , " + x.getDate() + '/' + x.getMonth() + '/' + x.getFullYear();
+    let month = x.getMonth()+1;
+    fullDate = x.getHours() + ':' +  x.getMinutes() + ':' + x.getSeconds()+ " <br> on   "+days[day]+" , " + x.getDate() + '/' + month + '/' + x.getFullYear();
     document.getElementById("currentTime").innerHTML = fullDate;
 }, 1000);
